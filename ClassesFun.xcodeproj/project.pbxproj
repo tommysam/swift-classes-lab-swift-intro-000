@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8E0CF9AA9C9C21BF6C8C37 /* Pods_ClassesFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C236521DE317BE4C926BA75C /* Pods_ClassesFun.framework */; };
 		5BC253C91D3D65C50054AE5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC253C81D3D65C50054AE5A /* AppDelegate.swift */; };
 		5BC253CB1D3D65C50054AE5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC253CA1D3D65C50054AE5A /* ViewController.swift */; };
 		5BC253CE1D3D65C50054AE5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC253CC1D3D65C50054AE5A /* Main.storyboard */; };
 		5BC253D01D3D65C50054AE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC253CF1D3D65C50054AE5A /* Assets.xcassets */; };
 		5BC253D31D3D65C50054AE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC253D11D3D65C50054AE5A /* LaunchScreen.storyboard */; };
 		5BC253DE1D3D65C50054AE5A /* ClassesFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC253DD1D3D65C50054AE5A /* ClassesFunTests.swift */; };
+		5BC253EA1D3D697E0054AE5A /* ThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC253E91D3D697E0054AE5A /* ThermometerTests.swift */; };
+		5BC253ED1D3D6ACC0054AE5A /* Thermometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC253EC1D3D6ACC0054AE5A /* Thermometer.swift */; };
+		D0F773C29396DED627C69856 /* Pods_ClassesFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D44A83DA40DE3633E45A69 /* Pods_ClassesFunTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C5849E077DFBA82094C30A0 /* Pods-ClassesFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesFunTests/Pods-ClassesFunTests.release.xcconfig"; sourceTree = "<group>"; };
 		5BC253C51D3D65C50054AE5A /* ClassesFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassesFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC253C81D3D65C50054AE5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC253CA1D3D65C50054AE5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,13 @@
 		5BC253D91D3D65C50054AE5A /* ClassesFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC253DD1D3D65C50054AE5A /* ClassesFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesFunTests.swift; sourceTree = "<group>"; };
 		5BC253DF1D3D65C50054AE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC253E91D3D697E0054AE5A /* ThermometerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermometerTests.swift; sourceTree = "<group>"; };
+		5BC253EC1D3D6ACC0054AE5A /* Thermometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thermometer.swift; sourceTree = "<group>"; };
+		93D44A83DA40DE3633E45A69 /* Pods_ClassesFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94657D0E25EFDF513E916E41 /* Pods-ClassesFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesFunTests/Pods-ClassesFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97A73239C1343152473C620B /* Pods-ClassesFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesFun/Pods-ClassesFun.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EA7FC4C9751D4972EB2DCF /* Pods-ClassesFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassesFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassesFun/Pods-ClassesFun.release.xcconfig"; sourceTree = "<group>"; };
+		C236521DE317BE4C926BA75C /* Pods_ClassesFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassesFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8E0CF9AA9C9C21BF6C8C37 /* Pods_ClassesFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F773C29396DED627C69856 /* Pods_ClassesFunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,9 @@
 				5BC253C71D3D65C50054AE5A /* ClassesFun */,
 				5BC253DC1D3D65C50054AE5A /* ClassesFunTests */,
 				5BC253C61D3D65C50054AE5A /* Products */,
+				5BC253E81D3D671A0054AE5A /* NotNeeded */,
+				E02854F67819404E6AE878E2 /* Pods */,
+				B4AE7EC3095A9E8CFC204CC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +94,9 @@
 		5BC253C71D3D65C50054AE5A /* ClassesFun */ = {
 			isa = PBXGroup;
 			children = (
-				5BC253C81D3D65C50054AE5A /* AppDelegate.swift */,
 				5BC253CA1D3D65C50054AE5A /* ViewController.swift */,
-				5BC253CC1D3D65C50054AE5A /* Main.storyboard */,
-				5BC253CF1D3D65C50054AE5A /* Assets.xcassets */,
-				5BC253D11D3D65C50054AE5A /* LaunchScreen.storyboard */,
-				5BC253D41D3D65C50054AE5A /* Info.plist */,
+				5BC253EC1D3D6ACC0054AE5A /* Thermometer.swift */,
+				5BC253EB1D3D6A890054AE5A /* Supporting Files */,
 			);
 			path = ClassesFun;
 			sourceTree = "<group>";
@@ -90,10 +104,51 @@
 		5BC253DC1D3D65C50054AE5A /* ClassesFunTests */ = {
 			isa = PBXGroup;
 			children = (
+				5BC253E91D3D697E0054AE5A /* ThermometerTests.swift */,
+			);
+			path = ClassesFunTests;
+			sourceTree = "<group>";
+		};
+		5BC253E81D3D671A0054AE5A /* NotNeeded */ = {
+			isa = PBXGroup;
+			children = (
 				5BC253DD1D3D65C50054AE5A /* ClassesFunTests.swift */,
 				5BC253DF1D3D65C50054AE5A /* Info.plist */,
 			);
+			name = NotNeeded;
 			path = ClassesFunTests;
+			sourceTree = "<group>";
+		};
+		5BC253EB1D3D6A890054AE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC253C81D3D65C50054AE5A /* AppDelegate.swift */,
+				5BC253CC1D3D65C50054AE5A /* Main.storyboard */,
+				5BC253CF1D3D65C50054AE5A /* Assets.xcassets */,
+				5BC253D11D3D65C50054AE5A /* LaunchScreen.storyboard */,
+				5BC253D41D3D65C50054AE5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4AE7EC3095A9E8CFC204CC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C236521DE317BE4C926BA75C /* Pods_ClassesFun.framework */,
+				93D44A83DA40DE3633E45A69 /* Pods_ClassesFunTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02854F67819404E6AE878E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A73239C1343152473C620B /* Pods-ClassesFun.debug.xcconfig */,
+				B0EA7FC4C9751D4972EB2DCF /* Pods-ClassesFun.release.xcconfig */,
+				94657D0E25EFDF513E916E41 /* Pods-ClassesFunTests.debug.xcconfig */,
+				3C5849E077DFBA82094C30A0 /* Pods-ClassesFunTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC253E21D3D65C50054AE5A /* Build configuration list for PBXNativeTarget "ClassesFun" */;
 			buildPhases = (
+				47B8351C9A428AC5DB0B9D31 /* [CP] Check Pods Manifest.lock */,
 				5BC253C11D3D65C50054AE5A /* Sources */,
 				5BC253C21D3D65C50054AE5A /* Frameworks */,
 				5BC253C31D3D65C50054AE5A /* Resources */,
+				98512E7003FC3B3508B3F83B /* [CP] Embed Pods Frameworks */,
+				600C0D201936C70B3884B48E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC253E51D3D65C50054AE5A /* Build configuration list for PBXNativeTarget "ClassesFunTests" */;
 			buildPhases = (
+				ED0740D08EB9CF453BABA839 /* [CP] Check Pods Manifest.lock */,
 				5BC253D51D3D65C50054AE5A /* Sources */,
 				5BC253D61D3D65C50054AE5A /* Frameworks */,
 				5BC253D71D3D65C50054AE5A /* Resources */,
+				D567113666E2A38F11C38650 /* [CP] Embed Pods Frameworks */,
+				4577B6A533EA5C30B435820E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +253,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4577B6A533EA5C30B435820E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesFunTests/Pods-ClassesFunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B8351C9A428AC5DB0B9D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		600C0D201936C70B3884B48E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesFun/Pods-ClassesFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98512E7003FC3B3508B3F83B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesFun/Pods-ClassesFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D567113666E2A38F11C38650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassesFunTests/Pods-ClassesFunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0740D08EB9CF453BABA839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BC253C11D3D65C50054AE5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +353,7 @@
 			files = (
 				5BC253CB1D3D65C50054AE5A /* ViewController.swift in Sources */,
 				5BC253C91D3D65C50054AE5A /* AppDelegate.swift in Sources */,
+				5BC253ED1D3D6ACC0054AE5A /* Thermometer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC253EA1D3D697E0054AE5A /* ThermometerTests.swift in Sources */,
 				5BC253DE1D3D65C50054AE5A /* ClassesFunTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +481,7 @@
 		};
 		5BC253E31D3D65C50054AE5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A73239C1343152473C620B /* Pods-ClassesFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClassesFun/Info.plist;
@@ -336,6 +493,7 @@
 		};
 		5BC253E41D3D65C50054AE5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EA7FC4C9751D4972EB2DCF /* Pods-ClassesFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ClassesFun/Info.plist;
@@ -347,6 +505,7 @@
 		};
 		5BC253E61D3D65C50054AE5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94657D0E25EFDF513E916E41 /* Pods-ClassesFunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClassesFunTests/Info.plist;
@@ -359,6 +518,7 @@
 		};
 		5BC253E71D3D65C50054AE5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5849E077DFBA82094C30A0 /* Pods-ClassesFunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ClassesFunTests/Info.plist;
@@ -388,6 +548,7 @@
 				5BC253E41D3D65C50054AE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BC253E51D3D65C50054AE5A /* Build configuration list for PBXNativeTarget "ClassesFunTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +557,7 @@
 				5BC253E71D3D65C50054AE5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
