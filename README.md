@@ -1,20 +1,25 @@
-# Classes Lab
+# Classes - Lab
 
-## Objectives
+![Drawing](http://i.imgur.com/itrJlyZ.jpg?1)  
 
-1. Objective 1
-2. Objective 2.
+> Self-education is, I firmly believe, the only kind of education there is. -[Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov)
+ 
 
-## Instructions
+## Learning Objectives
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* 
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
 
-## Resources
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+
+## Outline / Notes
+
+*  This lab should have them create one (maybe two) classes and provide functionality to these classes.
+* There should be tests written for this lab. I've included an Xcode project that has started this process so you can see how to see it through (the lab doesn't have to ask them to make a thermometer, I used that as an example).
+* Considering I have Pods involved here (for Quick & Nimble testing frameworks), you're required (along with the student) to work in the .xcworkspace file.
+* If you wanted to have fun with this one (meaning.. add some visuals or have them do UI stuff as well), you could also test some functions they should be implementing in the ViewController (like I did with the Thermometer).
+* You can also save the fun stuff for later as this is the first lab in classes.
+
 
 <a href='https://learn.co/lessons/Classes-Lab' data-visibility='hidden'>View this lesson on Learn.co</a>
