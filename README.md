@@ -7,19 +7,14 @@
 
 ## Learning Objectives
 
-* 
+* Complete this lab
 
+## Directions
 
+In this lab, you will model a simple household thermometer using a Swift class. It will contain a few properties that you can use to explore the concept of properties as it applies to Swift classes.
 
+The directions for this lab have been written in `Thermometer.playground`, which is distributed with this repository. Open that file to get started. It contains directions on how to complete the lab. The file also includes some tests. When you first open up the playground, these tests will fail, and will be marked as errors. As you complete the tasks in the lab, the errors should disappear. When you have successfully finished the lab, all of the errors will be gone.
 
-
-## Outline / Notes
-
-*  This lab should have them create one (maybe two) classes and provide functionality to these classes.
-* There should be tests written for this lab. I've included an Xcode project that has started this process so you can see how to see it through (the lab doesn't have to ask them to make a thermometer, I used that as an example).
-* Considering I have Pods involved here (for Quick & Nimble testing frameworks), you're required (along with the student) to work in the .xcworkspace file.
-* If you wanted to have fun with this one (meaning.. add some visuals or have them do UI stuff as well), you could also test some functions they should be implementing in the ViewController (like I did with the Thermometer).
-* You can also save the fun stuff for later as this is the first lab in classes.
-
+Good luck!
 
 <a href='https://learn.co/lessons/Classes-Lab' data-visibility='hidden'>View this lesson on Learn.co</a>
