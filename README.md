@@ -31,9 +31,9 @@ Thanks Grandma.
 
 **6.** Navigate back to the `Thermometer.swift` file. Create a computed property called `description` of type `String`. It should return back the following `String` value:
 
-```swift
+```
 Fahrenheit: 90.0  
-Celsius: 32.22"
+Celsius: 32.22
  ```
  
 This is of course assuming that the current `fahrenheit` property is equal to 90.0 You shouldn't hardcode these figures. 90.0 and 32.22 should instead represent what the current values of `fahrenheit` and `celsius` are using String interpolation.
